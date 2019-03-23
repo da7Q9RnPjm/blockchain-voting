@@ -36,11 +36,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b506040805190810160405280601481526020017f457468657269756d20566f7474696e67204170700000000000000000000000008152506000908051906020019061005c929190610062565b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6102d7806101166000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063435ffe94146100515780638da9b772146100ba575b600080fd5b34801561005d57600080fd5b506100b8600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061014a565b005b3480156100c657600080fd5b506100cf610164565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561010f5780820151818401526020810190506100f4565b50505050905090810190601f16801561013c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b8060009080519060200190610160929190610206565b5050565b606060008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101fc5780601f106101d1576101008083540402835291602001916101fc565b820191906000526020600020905b8154815290600101906020018083116101df57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061024757805160ff1916838001178555610275565b82800160010185558215610275579182015b82811115610274578251825591602001919060010190610259565b5b5090506102829190610286565b5090565b6102a891905b808211156102a457600081600090555060010161028c565b5090565b905600a165627a7a72305820dd874813d07f0a9b7f7da835ef90a5414fd759f344e52784e11d07283ac847550029",
-  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063435ffe94146100515780638da9b772146100ba575b600080fd5b34801561005d57600080fd5b506100b8600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061014a565b005b3480156100c657600080fd5b506100cf610164565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561010f5780820151818401526020810190506100f4565b50505050905090810190601f16801561013c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b8060009080519060200190610160929190610206565b5050565b606060008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101fc5780601f106101d1576101008083540402835291602001916101fc565b820191906000526020600020905b8154815290600101906020018083116101df57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061024757805160ff1916838001178555610275565b82800160010185558215610275579182015b82811115610274578251825591602001919060010190610259565b5b5090506102829190610286565b5090565b6102a891905b808211156102a457600081600090555060010161028c565b5090565b905600a165627a7a72305820dd874813d07f0a9b7f7da835ef90a5414fd759f344e52784e11d07283ac847550029",
-  "sourceMap": "36:312:0:-;;;90:72;8:9:-1;5:2;;;30:1;27;20:12;5:2;90:72:0;122:32;;;;;;;;;;;;;;;;;;:7;:32;;;;;;;;;;;;:::i;:::-;;36:312;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
-  "deployedSourceMap": "36:312:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;170:78;;8:9:-1;5:2;;;30:1;27;20:12;5:2;170:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;256:89;;8:9:-1;5:2;;;30:1;27;20:12;5:2;256:89:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;256:89:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;170:78;236:4;226:7;:14;;;;;;;;;;;;:::i;:::-;;170:78;:::o;256:89::-;297:6;330:7;323:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;256:89;:::o;36:312::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
-  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract AppDescription {\r\n    string message;\r\n\r\n    constructor() public {\r\n        message = \"Etherium Votting App\";\r\n    }\r\n\r\n    function setHello(string memory _msg) public {\r\n        message = _msg;\r\n    }\r\n\r\n    function getHello() public view returns (string memory) {\r\n        return message;\r\n    }\r\n}",
+  "bytecode": "0x608060405234801561001057600080fd5b506040805190810160405280601381526020017f457468657269756d20566f74696e6720417070000000000000000000000000008152506000908051906020019061005c929190610062565b50610107565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100a357805160ff19168380011785556100d1565b828001600101855582156100d1579182015b828111156100d05782518255916020019190600101906100b5565b5b5090506100de91906100e2565b5090565b61010491905b808211156101005760008160009055506001016100e8565b5090565b90565b6102d7806101166000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063435ffe94146100515780638da9b772146100ba575b600080fd5b34801561005d57600080fd5b506100b8600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061014a565b005b3480156100c657600080fd5b506100cf610164565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561010f5780820151818401526020810190506100f4565b50505050905090810190601f16801561013c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b8060009080519060200190610160929190610206565b5050565b606060008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101fc5780601f106101d1576101008083540402835291602001916101fc565b820191906000526020600020905b8154815290600101906020018083116101df57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061024757805160ff1916838001178555610275565b82800160010185558215610275579182015b82811115610274578251825591602001919060010190610259565b5b5090506102829190610286565b5090565b6102a891905b808211156102a457600081600090555060010161028c565b5090565b905600a165627a7a72305820bca55f24ecfffe3a9c39cbed271f11c0adf416b013a620e848d8570972e305fa0029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063435ffe94146100515780638da9b772146100ba575b600080fd5b34801561005d57600080fd5b506100b8600480360381019080803590602001908201803590602001908080601f016020809104026020016040519081016040528093929190818152602001838380828437820191505050505050919291929050505061014a565b005b3480156100c657600080fd5b506100cf610164565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561010f5780820151818401526020810190506100f4565b50505050905090810190601f16801561013c5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b8060009080519060200190610160929190610206565b5050565b606060008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101fc5780601f106101d1576101008083540402835291602001916101fc565b820191906000526020600020905b8154815290600101906020018083116101df57829003601f168201915b5050505050905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061024757805160ff1916838001178555610275565b82800160010185558215610275579182015b82811115610274578251825591602001919060010190610259565b5b5090506102829190610286565b5090565b6102a891905b808211156102a457600081600090555060010161028c565b5090565b905600a165627a7a72305820bca55f24ecfffe3a9c39cbed271f11c0adf416b013a620e848d8570972e305fa0029",
+  "sourceMap": "36:311:0:-;;;90:71;8:9:-1;5:2;;;30:1;27;20:12;5:2;90:71:0;122:31;;;;;;;;;;;;;;;;;;:7;:31;;;;;;;;;;;;:::i;:::-;;36:311;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "36:311:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;169:78;;8:9:-1;5:2;;;30:1;27;20:12;5:2;169:78:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;255:89;;8:9:-1;5:2;;;30:1;27;20:12;5:2;255:89:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;255:89:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;169:78;235:4;225:7;:14;;;;;;;;;;;;:::i;:::-;;169:78;:::o;255:89::-;296:6;329:7;322:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;255:89;:::o;36:311::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract AppDescription {\r\n    string message;\r\n\r\n    constructor() public {\r\n        message = \"Etherium Voting App\";\r\n    }\r\n\r\n    function setHello(string memory _msg) public {\r\n        message = _msg;\r\n    }\r\n\r\n    function getHello() public view returns (string memory) {\r\n        return message;\r\n    }\r\n}",
   "sourcePath": "C:\\Users\\presi\\OneDrive\\Documents\\GitHub\\blockchain-voting\\contracts\\AppDescription.sol",
   "ast": {
     "absolutePath": "/C/Users/presi/OneDrive/Documents/GitHub/blockchain-voting/contracts/AppDescription.sol",
@@ -109,7 +109,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "111:51:0",
+              "src": "111:50:0",
               "statements": [
                 {
                   "expression": {
@@ -136,7 +136,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "457468657269756d20566f7474696e6720417070",
+                      "hexValue": "457468657269756d20566f74696e6720417070",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -144,15 +144,15 @@
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "132:22:0",
+                      "src": "132:21:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_04ecb1db46aff913facc307035c3a7e41dfcc81a2df1a7d29e4c6da9db4613c1",
-                        "typeString": "literal_string \"Etherium Votting App\""
+                        "typeIdentifier": "t_stringliteral_6b3ab2e5af8e0e31be10346ca1622f97a941ec80927512345aa3eaf9bd7452c8",
+                        "typeString": "literal_string \"Etherium Voting App\""
                       },
-                      "value": "Etherium Votting App"
+                      "value": "Etherium Voting App"
                     },
-                    "src": "122:32:0",
+                    "src": "122:31:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -160,7 +160,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "122:32:0"
+                  "src": "122:31:0"
                 }
               ]
             },
@@ -186,7 +186,7 @@
               "src": "111:0:0"
             },
             "scope": 30,
-            "src": "90:72:0",
+            "src": "90:71:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -195,7 +195,7 @@
             "body": {
               "id": 20,
               "nodeType": "Block",
-              "src": "215:33:0",
+              "src": "214:33:0",
               "statements": [
                 {
                   "expression": {
@@ -212,7 +212,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "226:7:0",
+                      "src": "225:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -227,13 +227,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 13,
-                      "src": "236:4:0",
+                      "src": "235:4:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "226:14:0",
+                    "src": "225:14:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -241,7 +241,7 @@
                   },
                   "id": 19,
                   "nodeType": "ExpressionStatement",
-                  "src": "226:14:0"
+                  "src": "225:14:0"
                 }
               ]
             },
@@ -263,7 +263,7 @@
                   "name": "_msg",
                   "nodeType": "VariableDeclaration",
                   "scope": 21,
-                  "src": "188:18:0",
+                  "src": "187:18:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -274,7 +274,7 @@
                     "id": 12,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "188:6:0",
+                    "src": "187:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -284,17 +284,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "187:20:0"
+              "src": "186:20:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 15,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "215:0:0"
+              "src": "214:0:0"
             },
             "scope": 30,
-            "src": "170:78:0",
+            "src": "169:78:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -303,7 +303,7 @@
             "body": {
               "id": 28,
               "nodeType": "Block",
-              "src": "312:33:0",
+              "src": "311:33:0",
               "statements": [
                 {
                   "expression": {
@@ -313,7 +313,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 3,
-                    "src": "330:7:0",
+                    "src": "329:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -322,7 +322,7 @@
                   "functionReturnParameters": 25,
                   "id": 27,
                   "nodeType": "Return",
-                  "src": "323:14:0"
+                  "src": "322:14:0"
                 }
               ]
             },
@@ -338,7 +338,7 @@
               "id": 22,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:0"
+              "src": "272:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -351,7 +351,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 29,
-                  "src": "297:6:0",
+                  "src": "296:6:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -362,7 +362,7 @@
                     "id": 23,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "297:6:0",
+                    "src": "296:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -372,20 +372,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "296:15:0"
+              "src": "295:15:0"
             },
             "scope": 30,
-            "src": "256:89:0",
+            "src": "255:89:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 31,
-        "src": "36:312:0"
+        "src": "36:311:0"
       }
     ],
-    "src": "0:348:0"
+    "src": "0:347:0"
   },
   "legacyAST": {
     "absolutePath": "/C/Users/presi/OneDrive/Documents/GitHub/blockchain-voting/contracts/AppDescription.sol",
@@ -454,7 +454,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "111:51:0",
+              "src": "111:50:0",
               "statements": [
                 {
                   "expression": {
@@ -481,7 +481,7 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "457468657269756d20566f7474696e6720417070",
+                      "hexValue": "457468657269756d20566f74696e6720417070",
                       "id": 7,
                       "isConstant": false,
                       "isLValue": false,
@@ -489,15 +489,15 @@
                       "kind": "string",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "132:22:0",
+                      "src": "132:21:0",
                       "subdenomination": null,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_stringliteral_04ecb1db46aff913facc307035c3a7e41dfcc81a2df1a7d29e4c6da9db4613c1",
-                        "typeString": "literal_string \"Etherium Votting App\""
+                        "typeIdentifier": "t_stringliteral_6b3ab2e5af8e0e31be10346ca1622f97a941ec80927512345aa3eaf9bd7452c8",
+                        "typeString": "literal_string \"Etherium Voting App\""
                       },
-                      "value": "Etherium Votting App"
+                      "value": "Etherium Voting App"
                     },
-                    "src": "122:32:0",
+                    "src": "122:31:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -505,7 +505,7 @@
                   },
                   "id": 9,
                   "nodeType": "ExpressionStatement",
-                  "src": "122:32:0"
+                  "src": "122:31:0"
                 }
               ]
             },
@@ -531,7 +531,7 @@
               "src": "111:0:0"
             },
             "scope": 30,
-            "src": "90:72:0",
+            "src": "90:71:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -540,7 +540,7 @@
             "body": {
               "id": 20,
               "nodeType": "Block",
-              "src": "215:33:0",
+              "src": "214:33:0",
               "statements": [
                 {
                   "expression": {
@@ -557,7 +557,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "226:7:0",
+                      "src": "225:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
                         "typeString": "string storage ref"
@@ -572,13 +572,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 13,
-                      "src": "236:4:0",
+                      "src": "235:4:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
                         "typeString": "string memory"
                       }
                     },
-                    "src": "226:14:0",
+                    "src": "225:14:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -586,7 +586,7 @@
                   },
                   "id": 19,
                   "nodeType": "ExpressionStatement",
-                  "src": "226:14:0"
+                  "src": "225:14:0"
                 }
               ]
             },
@@ -608,7 +608,7 @@
                   "name": "_msg",
                   "nodeType": "VariableDeclaration",
                   "scope": 21,
-                  "src": "188:18:0",
+                  "src": "187:18:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -619,7 +619,7 @@
                     "id": 12,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "188:6:0",
+                    "src": "187:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -629,17 +629,17 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "187:20:0"
+              "src": "186:20:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 15,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "215:0:0"
+              "src": "214:0:0"
             },
             "scope": 30,
-            "src": "170:78:0",
+            "src": "169:78:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -648,7 +648,7 @@
             "body": {
               "id": 28,
               "nodeType": "Block",
-              "src": "312:33:0",
+              "src": "311:33:0",
               "statements": [
                 {
                   "expression": {
@@ -658,7 +658,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 3,
-                    "src": "330:7:0",
+                    "src": "329:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
@@ -667,7 +667,7 @@
                   "functionReturnParameters": 25,
                   "id": 27,
                   "nodeType": "Return",
-                  "src": "323:14:0"
+                  "src": "322:14:0"
                 }
               ]
             },
@@ -683,7 +683,7 @@
               "id": 22,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "273:2:0"
+              "src": "272:2:0"
             },
             "payable": false,
             "returnParameters": {
@@ -696,7 +696,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 29,
-                  "src": "297:6:0",
+                  "src": "296:6:0",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -707,7 +707,7 @@
                     "id": 23,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "297:6:0",
+                    "src": "296:6:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -717,20 +717,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "296:15:0"
+              "src": "295:15:0"
             },
             "scope": 30,
-            "src": "256:89:0",
+            "src": "255:89:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 31,
-        "src": "36:312:0"
+        "src": "36:311:0"
       }
     ],
-    "src": "0:348:0"
+    "src": "0:347:0"
   },
   "compiler": {
     "name": "solc",
@@ -741,9 +741,9 @@
       "events": {},
       "links": {},
       "address": "0xabeb6cf7dc8b74e09a114dd9e86ec93591b6a39c",
-      "transactionHash": "0x7a14620e3a0d686114e5797f4f86edf87c471c98beb4751af0edc49ab732cb8e"
+      "transactionHash": "0xe4009b8547249dabda7bdbdfda977e66493cfb91147c79cbd8a546835697b2e1"
     }
   },
   "schemaVersion": "2.0.2",
-  "updatedAt": "2019-03-21T11:41:39.105Z"
+  "updatedAt": "2019-03-23T12:39:03.003Z"
 }

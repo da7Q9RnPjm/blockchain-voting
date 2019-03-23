@@ -4,7 +4,7 @@ contract AppDescription {
     string message;
 
     constructor() public {
-        message = "Etherium Votting App";
+        message = "Etherium Voting App";
     }
 
     function setHello(string memory _msg) public {
