@@ -7,19 +7,23 @@ contract Voting {
     function Voting() public {
         owner=msg.sender;
     }
+
     modifier onlyOwner {
         require(msg.sender == owner);
         _;
     }
+
     struct Voter {
         bytes32 uid; 
         uint candidateIDVote;
     }
+
     struct Candidate {
         bytes32 name;
         bytes32 party; 
         bool doesExist; 
-    }   
+    } 
+      
     uint numCandidates;
     uint numVoters;
 
