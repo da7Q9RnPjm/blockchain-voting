@@ -29,7 +29,7 @@ contract Voting {
     function addCandidate(bytes32 name, bytes32 party) onlyOwner public {
         uint candidateID = numCandidates++;
         candidates[candidateID] = Candidate(name,party,true);
-        AddedCandidate(candidateID);
+        emit AddedCandidate(candidateID);
     }
 
     function vote(bytes32 uid, uint candidateID) public {

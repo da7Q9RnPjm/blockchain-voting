@@ -4,7 +4,7 @@ Using truffle framework and gananche
 
 ## How To Use
 First you need to open truffle console using ganache network then run instance
-Simply you can run the ganache-cli.sh
+Simply you can run the ```ganache-cli.sh```
 ```
 ./ganache-cli.sh
 truffle(ganache)> Voting.deployed().then(function(instance) {VotingContract = instance;})
@@ -22,7 +22,7 @@ truffle(ganache)> VotingContract.addCandidate("Paslon3","Nurhadi & Aldo")
 To add vote change the {User-ID} using unique id for example you can use your National ID likes 34562342345353320001 and
 change the {Candidate-ID} with the candidate id you want to vote example for Nurhadi & Aldo you can use id 3
 ```
-truffle(ganache)> VotingContract.votes({User-ID}, {Candidate-ID})
+truffle(ganache)> VotingContract.vote({User-ID}, {Candidate-ID})
 ```
 Here get total votes of any candidate. You can change the {Candidate-ID} to 3 if you want to get information about total votes for Nurhadi & Aldo (Candidate 3)
 ```
