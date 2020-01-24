@@ -33,7 +33,7 @@ To get candidate information you can change the {Candidate-ID} to 3 if you want 
 truffle(ganache)> VotingContract.getCandidate({Candidate-ID})
 ```
 
-## Referense
+## References
 - [Time-locked Wallets: A Truffle Framework Tutorial | Toptal](https://www.toptal.com/ethereum-smart-contract/time-locked-wallet-truffle-tutorial)
 - [Truffle Documentation](https://truffleframework.com/docs/truffle/overview)
 - [web3-eth Documentation](https://web3js.readthedocs.io/en/1.0/web3-eth.html)
